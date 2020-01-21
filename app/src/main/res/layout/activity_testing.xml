@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Testing">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:src="@drawable/logo" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:id="@+id/HeaderC"
+            android:text="Testing Tools and Equipments"
+            android:textAlignment="center"
+            android:textColor="#A70707"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Loop Calibrator"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Digital Multimeter "
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Proximity simulator"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+
+                    android:text="Hydraulic hand pump"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co12"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Hydraulic gauge 100 bar"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Hydraulic gauge 600 bar"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co16"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co17"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co18"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Hydraulic gauge 1000 bar"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co19"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co21"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Network tester"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co22"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co23"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co24"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="VEGA calibrator"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co25"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co26"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co27"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+
+                    android:text="Gauge for H2 bottle"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co28"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co29"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Unit thermometer"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co31"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co32"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co33"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Mud thermometer"
+                    android:textColor="@color/geodata"
+
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co34"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co35"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co36"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+
+                    android:text="Tape measure 5m"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co37"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co38"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co39"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+
+                    android:text="Tape measure 30m"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co40"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co41"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co42"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Sample gas bottle - H2S 40ppm"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co43"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co44"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co45"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Sample gas bottle - CH4 10%"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co46"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co47"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co48"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Sample gas bottle - CH4 1%"
+
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co49"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co50"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co51"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Sample gas bottle - C1-C5 1%"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co52"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co53"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co54"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Spirit level"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co55"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co56"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co57"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Test gas balloon for H2S"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co58"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co59"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co60"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Test gas balloon for CH4 10%"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co61"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co62"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co63"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Test gas balloon for C1-C5 1%"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co64"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co65"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co66"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/Save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Save Changes" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

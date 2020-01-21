@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:backgroundTintMode="multiply"
+    android:backgroundTint="@color/geodata"
+    android:layout_height="match_parent"
+    tools:context=".Unit_Loc_List">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/Sharing"
+        android:layout_width="82dp"
+        android:layout_height="48dp"
+        android:src="@drawable/sharing" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select Unit to Change it's Location"
+        android:gravity="center"
+        android:textColor="@color/geodata"
+        android:textStyle="bold"/>
+
+
+
+    <ListView
+        android:id="@+id/listView1"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+
+        android:drawSelectorOnTop="true"
+        android:listSelector="@drawable/listview_selector_1">
+    </ListView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Alarm">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:src="@drawable/logo" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:id="@+id/HeaderC"
+            android:text="GEOLOGY EQUIPMENTS"
+            android:textAlignment="center"
+            android:textColor="#A70707"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+         
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Binocular Microscope (Field Type)"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Binocular Microscope (Lab Type)"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Polarizan Microscope"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+
+                    android:text="UV box with lamp"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co12"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Densitometer"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Digital Balance"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co16"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co17"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co18"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Calcimetry Electronic box"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co19"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co21"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Calcimetry sensor"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co22"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co23"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co24"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Calcimetery sieve"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co25"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co26"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co27"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+
+                    android:text="Evaporate dish"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co28"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co29"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Mortar and pestle"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co31"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co32"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co33"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Oven (Macrowave)"
+                    android:textColor="@color/geodata"
+
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co34"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co35"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co36"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+
+                    android:text="Calcium Carbonate (CaCO3) 99.9%"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co37"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co38"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co39"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+
+                    android:text="Phenolphthalein"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co40"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co41"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co42"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Filter Paper"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co43"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co44"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co45"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Sample tray large"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co46"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co47"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co48"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Sample tray medium"
+
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co49"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co50"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co51"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Tweezers"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co52"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co53"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co54"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Alizarin"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co55"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co56"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co57"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Distilled water"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co58"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co59"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co60"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Acid HCl 10%"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co61"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co62"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co63"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/Save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Save Changes" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

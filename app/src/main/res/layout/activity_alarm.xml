@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Alarm">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:id="@+id/HeaderC"
+            android:text="Alarm system"
+            android:textAlignment="center"
+            android:textColor="#A70707"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="H2S and CH4 Alarm system"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Rack mount alarm panel with two flasher"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="LPT to USB virtual serial port of alarm panel"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co5"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="LPT male and female convertor"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co9"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+
+                    android:text="Red siren and flasher (Unit)"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co11"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co12"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Orange siren and flasher (Unit)"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co13"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co14"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="White siren and flasher (Unit)"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co16"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co17"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co18"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Red siren and flasher (Rig floor)"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co19"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co20"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co21"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Orange siren and flasher (Rig floor)"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co22"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co23"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co24"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="White siren and flasher (Rig floor)"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co25"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co26"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co27"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+
+                    android:text="Red siren and flasher (Pit room)"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co28"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co29"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Orange siren and flasher (Pit room)"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co31"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co32"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co33"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="White siren and flasher (Pit room)"
+                    android:textColor="@color/geodata"
+
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co34"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co35"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co36"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+
+                    android:text="Junction box for ML unit alarm"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co37"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co38"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co39"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+
+                    android:text="Junction box for rig floor alarm"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co40"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co41"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co42"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Junction box for pit room alarm"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co43"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co44"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co45"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Mounting for ML unit alarm"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co46"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co47"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co48"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Mounting for rig floor alarm"
+
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co49"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co50"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co51"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="5dp"
+                    android:text="Mounting for pit room alarm"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co52"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="In use"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co53"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="bottom"
+                    android:hint="Spare"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="10sp" />
+
+                <EditText
+                    android:id="@+id/Co54"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:hint="spec"
+                    android:textAlignment="center"
+                    android:textSize="10sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/Save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Save Changes" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

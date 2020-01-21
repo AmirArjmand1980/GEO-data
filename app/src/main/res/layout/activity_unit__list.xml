@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+  android:backgroundTintMode="multiply"
+    android:backgroundTint="@color/geodata"
+    android:layout_height="match_parent"
+    tools:context=".Unit_List">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Pars GEO-data units inventory application. Here you can select a unit to edit it's inventory list."
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:lineSpacingExtra="10dp"
+        android:textColor="@color/geodata"/>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        
+        android:drawSelectorOnTop="true"
+        android:listSelector="@drawable/listview_selector_1">
+    </ListView>
+
+</LinearLayout>
