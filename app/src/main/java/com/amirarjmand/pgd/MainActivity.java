@@ -82,13 +82,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-//        der=findViewById(R.id.Der);
-//        der.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(MainActivity.this, DER.class));
-//            }
-//        });
+        der=findViewById(R.id.Der);
+        der.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, DER.class));
+            }
+        });
 
     }
 

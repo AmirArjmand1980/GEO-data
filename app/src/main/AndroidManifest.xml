@@ -15,6 +15,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".DER"></activity>
         <activity android:name=".ResultActivity" />
 
         <provider

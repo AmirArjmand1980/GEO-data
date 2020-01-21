@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -26,6 +26,14 @@
         <!-- Used for the background -->
         <item name="android:background">#4CAF50</item>
         <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="CustomDatePickerDialogTheme" parent="android:Theme.Material.Light.Dialog" tools:targetApi="lollipop">
+        <item name="android:datePickerStyle">@style/MyDatePickerStyle</item>
+    </style>
+
+    <style name="MyDatePickerStyle" parent="@android:style/Widget.Material.DatePicker" tools:targetApi="lollipop">
+        <item name="android:datePickerMode">spinner</item>
     </style>
 
 

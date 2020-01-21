@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".RepairReport">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:src="@drawable/logo" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:textSize="20sp"
+            android:id="@+id/HeaderC"
+            android:text="Defectived Report"
+            android:textAlignment="center"
+            android:textColor="#A70707"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:id="@+id/T1"
+                    android:text="Rig Name:"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:maxLength="40"
+                    android:hint="Rig Name"
+                    android:inputType="textCapWords"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:id="@+id/T2"
+                    android:text="Unit No:"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Unit Number"
+                    android:inputType="textCapCharacters"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+
+                    android:text="Set Date of Report:"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:text="Today"
+                    android:id="@+id/Today"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:id="@+id/Cal"
+                    android:src="@drawable/calendar"/>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:textSize="25sp"
+                    android:id="@+id/DateDisplay"
+                    android:text=""
+                    android:textColor="#F80606"
+                    android:textStyle="bold" />
+                
+            </LinearLayout>
+
+
+
+
+
+
+
+    <DatePicker
+        android:id="@+id/date_picker"
+        android:layout_width="wrap_content"
+        android:calendarViewShown="false"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+</LinearLayout>
+</LinearLayout>
+
