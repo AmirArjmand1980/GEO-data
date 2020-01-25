@@ -37,8 +37,8 @@ import java.util.ArrayList;
 public class RepairReport extends AppCompatActivity {
 
     EditText c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13;
-    private RadioGroup radioGroup, radioGroup2;
-    private RadioButton radioButton1, radioButton2, radioButton3, radioButton4,radioButton5;
+    RadioGroup radioGroup, radioGroup2;
+    RadioButton radioButton1, radioButton2, radioButton3, radioButton4,radioButton5;
     Button save, fl,share, blank;
     CalendarView calendarView;
     String date, dirpath, dirpath2, radio1, radio2, filename;

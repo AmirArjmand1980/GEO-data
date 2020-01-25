@@ -30,7 +30,10 @@
             android:textStyle="bold" />
     </LinearLayout>
 
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Scrol1">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -67,7 +70,7 @@
                     android:gravity="bottom"
                     android:maxLength="40"
                     android:hint="Rig Name"
-                    android:inputType="textCapWords"
+                    android:inputType="textCapCharacters"
                     android:textAlignment="center"
                     android:textSize="20sp" />
             </LinearLayout>
@@ -96,7 +99,7 @@
                     android:layout_weight="2"
                     android:gravity="bottom"
                     android:hint="Unit Number"
-                    android:inputType="textCapCharacters"
+                    android:inputType="number"
                     android:textAlignment="center"
                     android:textSize="20sp" />
 
@@ -128,10 +131,11 @@
                     android:paddingLeft="5dp"
                     style="@style/Widget.AppCompat.Button.Borderless"
                     android:text="Today"
+                    android:textSize="20sp"
                     android:id="@+id/Today"
                     android:textColor="#000"
                     android:textStyle="bold" />
-                <ImageButton
+                <ImageView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
@@ -161,8 +165,836 @@
                 
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="PGD Unit Manager:"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Unit Manager"
+                    android:inputType="textCapWords"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="PGD Representative:"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="PGD Representative"
+                    android:inputType="textCapWords"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+
+                    android:text="When the problem reported:"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:text="Today"
+                    android:textSize="20sp"
+                    android:id="@+id/Today2"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:id="@+id/Ca2"
+                    android:src="@drawable/calendar"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Problem short description"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:id="@+id/linear1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
 
 
+                <EditText
+                    android:id="@+id/Co5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Problem Description"
+                    android:inputType="textCapSentences"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="80"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Date and Time of Arrival at Rig:"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:text="Today"
+                    android:textSize="20sp"
+                    android:id="@+id/Today3"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:id="@+id/Ca3"
+                    android:src="@drawable/calendar"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:id="@+id/Ti1"
+                    android:src="@drawable/watch"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Date and Time of Departure from Rig:"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:text="Today"
+                    android:textSize="20sp"
+                    android:id="@+id/Today4"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:id="@+id/Ca4"
+                    android:src="@drawable/calendar"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:id="@+id/Ti2"
+                    android:src="@drawable/watch"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Distance from Ahwaz:"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co6"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Km"
+                    android:inputType="number"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Device Name:"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co7"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Device Name"
+                    android:inputType="textCapWords"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="GEO/No or Serial/No:"
+                    android:textColor="@color/geodata"
+                    android:textStyle="italic" />
+
+                <EditText
+                    android:id="@+id/Co8"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Serial/No"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Repairing Description"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/Co9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Problem Description"
+                    android:inputType="textCapSentences"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="148"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/Co10"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Problem Description"
+                    android:inputType="textCapSentences"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="148"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/Co11"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Problem Description"
+                    android:inputType="textCapSentences"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="148"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/Co12"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Problem Description"
+                    android:inputType="textCapSentences"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="148"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/Co13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Problem Description"
+                    android:inputType="textCapSentences"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="148"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/Co14"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Problem Description"
+                    android:inputType="textCapSentences"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="148"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/Co15"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Problem Description"
+                    android:inputType="textCapSentences"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="148"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/Co16"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Problem Description"
+                    android:inputType="textCapSentences"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="148"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/Co17"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Problem Description"
+                    android:inputType="textCapSentences"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="148"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/Co18"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Problem Description"
+                    android:inputType="textCapSentences"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="148"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/Co19"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Problem Description"
+                    android:inputType="textCapSentences"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="148"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/Co20"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Problem Description"
+                    android:inputType="textCapSentences"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="148"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/Co21"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Problem Description"
+                    android:inputType="textCapSentences"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="148"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/Co22"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Problem Description"
+                    android:inputType="textCapSentences"
+                    android:keyboardNavigationCluster="false"
+                    android:maxLength="148"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Repaired on Site? "
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/RG1"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/RBy1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_marginStart="20dp"
+                    android:textSize="20sp"
+                    android:checked="false" />
+
+                <RadioButton
+                    android:id="@+id/RBn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:checked="false"
+                    android:layout_marginStart="60dp"
+                    android:text="No" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Replaced by Spare?  "
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/RG2"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/RBy2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_marginStart="20dp"
+                    android:textSize="20sp"
+                    android:checked="false" />
+
+                <RadioButton
+                    android:id="@+id/RBn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:checked="false"
+                    android:layout_marginStart="60dp"
+                    android:text="No" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="5dp"
+                    android:text="Equipment to Ahwas? "
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/RG3"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/RBy3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_marginStart="20dp"
+                    android:textSize="20sp"
+                    android:checked="false" />
+
+                <RadioButton
+                    android:id="@+id/RBn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:checked="false"
+                    android:layout_marginStart="60dp"
+                    android:text="No" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/Save"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:layout_gravity="center"
+                    android:text="Save Changes" />
+                <Button
+                    android:id="@+id/FL"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:layout_gravity="center"
+                    android:text="File List" />
+
+                <Button
+                    android:id="@+id/Blank"
+                    android:layout_width="0dp"
+                    android:layout_weight=".2"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Blank Form" />
+
+                <Button
+                    android:id="@+id/Sharing"
+                    android:layout_width="0dp"
+                    android:layout_weight=".2"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Share File" />
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+            
+
+
+
+
+
+     <TimePicker
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/Time_picker"
+         android:visibility="invisible"/>
 
 
 
@@ -175,5 +1007,5 @@
         android:visibility="invisible"/>
 
 </LinearLayout>
-</LinearLayout>
+
 
