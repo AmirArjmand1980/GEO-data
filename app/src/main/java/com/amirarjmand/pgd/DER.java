@@ -144,6 +144,7 @@ public class DER extends AppCompatActivity {
                 }
                 ClearBoxes(DER.this, "DER.xls");
 
+                
 
                 share.setOnClickListener(new View.OnClickListener() {
                     @Override
