@@ -3,12 +3,16 @@ package com.amirarjmand.pgd;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.app.TimePickerDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.AssetManager;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.v4.app.DialogFragment;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -20,12 +24,15 @@ import android.widget.ImageView;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.TimePicker;
 import android.widget.Toast;
+
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.poifs.filesystem.POIFSFileSystem;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -37,22 +44,22 @@ import java.util.ArrayList;
 import java.util.Calendar;
 
 
-
-
 public class DER extends AppCompatActivity {
 
-    TextView datedisplay, today;
-    DatePicker date_picker;
-    ImageView cal;
+    TextView datedisplay1, datedisplay2, datedisplay3, datedisplay4;
+    ImageView cal1, cal2, cal3, cal4;
     EditText c1, c2, c3, c4, c5, c6, c7, c8, c9, c10, c11, c12, c13, c14, c15, c16, c17, c18, c19, c20, c21, c22;
     RadioGroup radioGroup1, radioGroup2, radioGroup3;
     Button save, fl, share, blank;
-    int year,month, day,radiobuttonId1,radiobuttonId2,radiobuttonId3,idx1,idx2,idx3;
-    String date, dirpath, dirpath2,filename;
+    int radiobuttonId1, radiobuttonId2, radiobuttonId3, idx1, idx2, idx3, year, month, day;
+    String date1, date2, date3, date4, dirpath, dirpath2, filename;
     Context context;
-    static final int DATE_DIALOG_ID = 100;
 
-
+    static final int DATE_DIALOG_ID = 1;
+    static final int DATE_DIALOG_ID2 = 2;
+    static final int DATE_DIALOG_ID3 = 3;
+    static final int DATE_DIALOG_ID4 = 4;
+    int cur = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -61,13 +68,20 @@ public class DER extends AppCompatActivity {
         setContentView(R.layout.activity_der);
 
 
+        datedisplay1 = findViewById(R.id.DateDisplay1);
+        datedisplay2 = findViewById(R.id.DateDisplay2);
+        datedisplay3 = findViewById(R.id.DateDisplay3);
+        datedisplay4 = findViewById(R.id.DateDisplay4);
 
-        datedisplay = findViewById(R.id.DateDisplay);
-        cal = findViewById(R.id.Cal);
-        today = findViewById(R.id.Today);
-        radioGroup1=findViewById(R.id.RG1);
-        radioGroup2=findViewById(R.id.RG2);
-        radioGroup3=findViewById(R.id.RG3);
+
+        cal1 = findViewById(R.id.Cal1);
+        cal2 = findViewById(R.id.Cal2);
+        cal3 = findViewById(R.id.Cal3);
+        cal4 = findViewById(R.id.Cal4);
+
+        radioGroup1 = findViewById(R.id.RG1);
+        radioGroup2 = findViewById(R.id.RG2);
+        radioGroup3 = findViewById(R.id.RG3);
 
         c1 = findViewById(R.id.Co1);
         c2 = findViewById(R.id.Co2);
@@ -91,12 +105,13 @@ public class DER extends AppCompatActivity {
         c20 = findViewById(R.id.Co20);
         c21 = findViewById(R.id.Co21);
         c22 = findViewById(R.id.Co22);
+
         save = findViewById(R.id.Save);
         fl = findViewById(R.id.FL);
         blank = findViewById(R.id.Blank);
         share = findViewById(R.id.Sharing);
 
-        context=DER.this;
+        context = DER.this;
 
         dirpath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/GEO-data/DER";
         dirpath2 = Environment.getExternalStorageDirectory().getAbsolutePath() + "/GEO-data/DER/Temp";
@@ -104,22 +119,30 @@ public class DER extends AppCompatActivity {
 
         copyAsset("DER.xls");
         ReadDataFromExcel(DER.this, "DER.xls");
-
+        setCurrentDateOnView();
+        addListenerOnButton();
 
 
         save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                date = datedisplay.getText().toString();
+
+                date1 = datedisplay1.getText().toString();
+                date2 = datedisplay2.getText().toString();
+                date3 = datedisplay3.getText().toString();
+                date4 = datedisplay4.getText().toString();
+
                 SaveDatainxcel(DER.this, "DER.xls");
                 final String unitno = c2.getText().toString();
                 File source = new File(dirpath, "DER.xls");
-                String destinf = "DER " + unitno + " (" + date;
+                String destinf = "DER " + unitno + " (" + date1;
                 File dest = new File(dirpath2, destinf + ").xls");
-                try {copyFileUsingChannel(source, dest);} catch (IOException e) {e.printStackTrace(); }
+                try {
+                    copyFileUsingChannel(source, dest);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
                 ClearBoxes(DER.this, "DER.xls");
-
-
 
 
                 share.setOnClickListener(new View.OnClickListener() {
@@ -127,8 +150,7 @@ public class DER extends AppCompatActivity {
                     public void onClick(View v) {
 
                         ArrayList<Uri> uris = new ArrayList<Uri>();
-                        String device = c1.getText().toString();
-                        String destinf = "DER " + unitno + " (" + date + ").xls";
+                        String destinf = "DER " + unitno + " (" + date1 + ").xls";
                         filename = destinf;
                         File filelocation = new File(android.os.Environment.getExternalStorageDirectory() + "/GEO-data/DER/Temp", filename);
                         Uri path1 = FileProvider.getUriForFile(context, context.getApplicationContext().getPackageName() + ".provider", filelocation);
@@ -197,79 +219,7 @@ public class DER extends AppCompatActivity {
         });
 
 
-        today.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                setCurrentDate();
-
-            }
-        });
-
-        cal.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                addButtonListener();
-
-            }
-        });
-
-
     }
-
-
-    public void setCurrentDate() {
-        date_picker = (DatePicker) findViewById(R.id.date_picker);
-        final Calendar calendar = Calendar.getInstance();
-        year = calendar.get(Calendar.YEAR);
-        month = calendar.get(Calendar.MONTH);
-        day = calendar.get(Calendar.DAY_OF_MONTH);
-
-        datedisplay.setText(new StringBuilder().append(day).append(".").append(month + 1).append(".").append(year));
-        date_picker.init(year, month, day, null);
-    }
-
-
-
-
-
-    public void addButtonListener() {
-        final Calendar calendar1 = Calendar.getInstance();
-
-        year = calendar1.get(Calendar.YEAR);
-        month = calendar1.get(Calendar.MONTH);
-        day = calendar1.get(Calendar.DAY_OF_MONTH);
-        datedisplay.setText(new StringBuilder().append(day).append(".").append(month + 1).append(".").append(year));
-        date_picker.init(year, month, day, null);
-        showDialog(DATE_DIALOG_ID);}
-
-
-
-    @Override
-    protected Dialog onCreateDialog(int id) {
-        switch (id) {
-            case DATE_DIALOG_ID:
-                DatePickerDialog datePickerDialog = new DatePickerDialog(this, datePickerListener, year, month, day);
-                return datePickerDialog;
-        }
-        return null;}
-
-
-
-
-
-    private DatePickerDialog.OnDateSetListener datePickerListener = new DatePickerDialog.OnDateSetListener() {
-
-        // when dialog box is closed, below method will be called.
-        public void onDateSet(DatePicker view, int selectedYear, int selectedMonth, int selectedDay) {
-            year = selectedYear;
-            month = selectedMonth;
-            day = selectedDay;
-            datedisplay.setText(new StringBuilder().append(day).append(".").append(month + 1).append(".").append(year));
-            date_picker.init(year, month, day, null); }
-    };
-
-
-
 
 
     private void ReadDataFromExcel(DER DER, String filename) {
@@ -377,8 +327,6 @@ public class DER extends AppCompatActivity {
 
 
     }
-
-
 
 
     private void SaveDatainxcel(Context context, String filename) {
@@ -491,7 +439,7 @@ public class DER extends AppCompatActivity {
             on444.setCellValue("Alireza Mardan");
 
             Radio1();
-            if (idx1 == 0){
+            if (idx1 == 0) {
                 HSSFRow ond1444 = BUS_SYSTEM.getRow(38);
                 HSSFCell on1444 = ond1444.getCell(4);
                 on1444.setCellValue("X");
@@ -502,7 +450,7 @@ public class DER extends AppCompatActivity {
             }
 
             Radio2();
-            if (idx2 == 0){
+            if (idx2 == 0) {
                 HSSFRow o4 = BUS_SYSTEM.getRow(38);
                 HSSFCell on4 = o4.getCell(13);
                 on4.setCellValue("X");
@@ -513,7 +461,7 @@ public class DER extends AppCompatActivity {
             }
 
             Radio3();
-            if (idx3 == 0){
+            if (idx3 == 0) {
                 HSSFRow ss = BUS_SYSTEM.getRow(39);
                 HSSFCell sss = ss.getCell(13);
                 sss.setCellValue("X");
@@ -525,7 +473,19 @@ public class DER extends AppCompatActivity {
 
             HSSFRow cond4444 = BUS_SYSTEM.getRow(4);
             HSSFCell con4444 = cond4444.getCell(11);
-            con4444.setCellValue(date);
+            con4444.setCellValue(date1);
+
+            HSSFRow cond1111 = BUS_SYSTEM.getRow(10);
+            HSSFCell con44441 = cond1111.getCell(6);
+            con44441.setCellValue(date2);
+
+            HSSFRow cond44454 = BUS_SYSTEM.getRow(14);
+            HSSFCell con44454 = cond44454.getCell(5);
+            con44454.setCellValue(date3);
+
+            HSSFRow cond44445 = BUS_SYSTEM.getRow(16);
+            HSSFCell con44445 = cond44445.getCell(6);
+            con44445.setCellValue(date4);
 
             myInputStream.close();
             FileOutputStream fos = new FileOutputStream(new File(android.os.Environment.getExternalStorageDirectory() + "/GEO-data/DER/", filename));
@@ -536,9 +496,6 @@ public class DER extends AppCompatActivity {
             e.printStackTrace();
         }
     }
-
-
-
 
 
     private void copyAsset(String filename) {
@@ -589,18 +546,13 @@ public class DER extends AppCompatActivity {
     }
 
 
-
-
-
     private void copyfile(InputStream in, OutputStream out) throws IOException {
         byte[] buffer = new byte[1024];
         int read;
         while ((read = in.read(buffer)) != -1) {
             out.write(buffer, 0, read);
-        } }
-
-
-
+        }
+    }
 
 
     private boolean listAssetFiles(String path) {
@@ -611,14 +563,15 @@ public class DER extends AppCompatActivity {
             if (list.length > 0) {
                 for (String file : list) {
                     if (!listAssetFiles(path + "/" + file)) return false;
-                    else {}}}
+                    else {
+                    }
+                }
+            }
         } catch (IOException e) {
-            return false;}
-        return true; }
-
-
-
-
+            return false;
+        }
+        return true;
+    }
 
 
     private static void copyFileUsingChannel(File source, File dest) throws IOException {
@@ -631,70 +584,190 @@ public class DER extends AppCompatActivity {
         } finally {
             sourceChannel.close();
             destChannel.close();
-        }}
+        }
+    }
 
 
-        private void Radio1 (){
-        radiobuttonId1=radioGroup1.getCheckedRadioButtonId();
+    private void Radio1() {
+        radiobuttonId1 = radioGroup1.getCheckedRadioButtonId();
         View radioButton = radioGroup1.findViewById(radiobuttonId1);
-        idx1=radioGroup1.indexOfChild(radioButton) ;
-        }
+        idx1 = radioGroup1.indexOfChild(radioButton);
+    }
 
-         private void Radio2 (){
-        radiobuttonId2=radioGroup2.getCheckedRadioButtonId();
+    private void Radio2() {
+        radiobuttonId2 = radioGroup2.getCheckedRadioButtonId();
         View radioButton2 = radioGroup2.findViewById(radiobuttonId2);
-        idx2=radioGroup2.indexOfChild(radioButton2) ;
+        idx2 = radioGroup2.indexOfChild(radioButton2);
+    }
+
+    private void Radio3() {
+        radiobuttonId3 = radioGroup3.getCheckedRadioButtonId();
+        View radioButton3 = radioGroup3.findViewById(radiobuttonId3);
+        idx3 = radioGroup3.indexOfChild(radioButton3);
+    }
+
+    private void ClearBoxes(Context context, String filename) {
+
+        try {
+            File file = new File(android.os.Environment.getExternalStorageDirectory() + "/GEO-data/DER/", filename);
+            FileInputStream myInputStream = new FileInputStream(file);
+
+            HSSFWorkbook workbook = new HSSFWorkbook(myInputStream);
+            HSSFSheet BUS_SYSTEM = workbook.getSheetAt(0);
+
+            HSSFRow ond1444 = BUS_SYSTEM.getRow(38);
+            HSSFCell on1444 = ond1444.getCell(4);
+            on1444.setCellValue("");
+
+            HSSFRow ond21444 = BUS_SYSTEM.getRow(38);
+            HSSFCell on21444 = ond21444.getCell(6);
+            on21444.setCellValue("");
+
+            HSSFRow o4 = BUS_SYSTEM.getRow(38);
+            HSSFCell on4 = o4.getCell(13);
+            on4.setCellValue("");
+
+            HSSFRow on4z = BUS_SYSTEM.getRow(38);
+            HSSFCell o4z = on4z.getCell(15);
+            o4z.setCellValue("");
+
+            HSSFRow ss = BUS_SYSTEM.getRow(39);
+            HSSFCell sss = ss.getCell(13);
+            sss.setCellValue("");
+
+            HSSFRow dd = BUS_SYSTEM.getRow(39);
+            HSSFCell ddd = dd.getCell(15);
+            ddd.setCellValue("");
+
+
+            myInputStream.close();
+            FileOutputStream fos = new FileOutputStream(new File(android.os.Environment.getExternalStorageDirectory() + "/GEO-data/DER/", filename));
+            workbook.write(fos);
+            fos.close();
+        } catch (Exception e) {
+            e.printStackTrace();
         }
 
-          private void Radio3 (){
-        radiobuttonId3=radioGroup3.getCheckedRadioButtonId();
-        View radioButton3 = radioGroup3.findViewById(radiobuttonId3);
-        idx3=radioGroup3.indexOfChild(radioButton3) ;
-         }
-
-         private void ClearBoxes(Context context, String filename){
-
-             try {
-                 File file = new File(android.os.Environment.getExternalStorageDirectory() + "/GEO-data/DER/", filename);
-                 FileInputStream myInputStream = new FileInputStream(file);
-
-                 HSSFWorkbook workbook = new HSSFWorkbook(myInputStream);
-                 HSSFSheet BUS_SYSTEM = workbook.getSheetAt(0);
-
-                 HSSFRow ond1444 = BUS_SYSTEM.getRow(38);
-                 HSSFCell on1444 = ond1444.getCell(4);
-                 on1444.setCellValue("");
-
-                 HSSFRow ond21444 = BUS_SYSTEM.getRow(38);
-                 HSSFCell on21444 = ond21444.getCell(6);
-                 on21444.setCellValue("");
-
-                 HSSFRow o4 = BUS_SYSTEM.getRow(38);
-                 HSSFCell on4 = o4.getCell(13);
-                 on4.setCellValue("");
-
-                 HSSFRow on4z = BUS_SYSTEM.getRow(38);
-                 HSSFCell o4z = on4z.getCell(15);
-                 o4z.setCellValue("");
-
-                 HSSFRow ss = BUS_SYSTEM.getRow(39);
-                 HSSFCell sss = ss.getCell(13);
-                 sss.setCellValue("");
-
-                 HSSFRow dd = BUS_SYSTEM.getRow(39);
-                 HSSFCell ddd = dd.getCell(15);
-                 ddd.setCellValue("");
+    }
 
 
-                 myInputStream.close();
-                 FileOutputStream fos = new FileOutputStream(new File(android.os.Environment.getExternalStorageDirectory() + "/GEO-data/DER/", filename));
-                 workbook.write(fos);
-                 fos.close();
-             } catch (Exception e) {
-                 e.printStackTrace();
-             }
+    public void setCurrentDateOnView() {
 
-         }
+
+        final Calendar c = Calendar.getInstance();
+        year = c.get(Calendar.YEAR);
+        month = c.get(Calendar.MONTH);
+        day = c.get(Calendar.DAY_OF_MONTH);
+
+
+        datedisplay1.setText(new StringBuilder().append(day).append(".").append(month + 1).append(".").append(year));
+
+        datedisplay2.setText(datedisplay1.getText().toString());
+
+        datedisplay3.setText(datedisplay1.getText().toString());
+
+        datedisplay4.setText(datedisplay1.getText().toString());
+    }
+
+    public void addListenerOnButton() {
+
+        cal1.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                showDialog(DATE_DIALOG_ID);
+
+            }
+
+        });
+
+        cal2.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                showDialog(DATE_DIALOG_ID2);
+
+            }
+
+        });
+
+        cal3.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                showDialog(DATE_DIALOG_ID3);
+
+            }
+
+        });
+
+        cal4.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+
+                showDialog(DATE_DIALOG_ID4);
+
+            }
+
+        });
+
+    }
+
+    @Override
+    protected Dialog onCreateDialog(int id) {
+        switch (id) {
+
+            case DATE_DIALOG_ID:
+                cur = DATE_DIALOG_ID;
+                // set date picker as current date
+                return new DatePickerDialog(this, datePickerListener, year, month, day);
+            case DATE_DIALOG_ID2:
+                cur = DATE_DIALOG_ID2;
+                // set date picker as current date
+                return new DatePickerDialog(this, datePickerListener, year, month, day);
+            case DATE_DIALOG_ID3:
+                cur = DATE_DIALOG_ID3;
+                // set date picker as current date
+                return new DatePickerDialog(this, datePickerListener, year, month, day);
+            case DATE_DIALOG_ID4:
+                cur = DATE_DIALOG_ID4;
+                // set date picker as current date
+                return new DatePickerDialog(this, datePickerListener, year, month, day);
+
+        }
+        return null;
+    }
+
+    private DatePickerDialog.OnDateSetListener datePickerListener = new DatePickerDialog.OnDateSetListener() {
+
+        // when dialog box is closed, below method will be called.
+        public void onDateSet(DatePicker view, int selectedYear, int selectedMonth, int selectedDay) {
+
+            year = selectedYear;
+            month = selectedMonth;
+            day = selectedDay;
+
+            if (cur == DATE_DIALOG_ID) {
+                // set selected date into textview
+                datedisplay1.setText(new StringBuilder().append(day).append(".").append(month + 1).append(".").append(year));
+            }
+            if (cur == DATE_DIALOG_ID2) {
+                datedisplay2.setText(new StringBuilder().append(day).append(".").append(month + 1).append(".").append(year));
+            }
+            if (cur == DATE_DIALOG_ID3) {
+                datedisplay3.setText(new StringBuilder().append(day).append(".").append(month + 1).append(".").append(year));
+            }
+            if (cur == DATE_DIALOG_ID4) {
+                datedisplay4.setText(new StringBuilder().append(day).append(".").append(month + 1).append(".").append(year));
+            }
+
+
+        }
+    };
 
 
 }
