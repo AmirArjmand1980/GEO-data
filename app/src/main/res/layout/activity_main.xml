@@ -58,6 +58,14 @@
         android:text="Damaged Defectived Report"
         />
 
+    <Button
+        android:id="@+id/Inspect"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Inspection Report"
+        />
+
 
 
 

@@ -15,7 +15,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".DER_Files"></activity>
+        <activity android:name=".Inspection"></activity>
+        <activity android:name=".DER_Files" />
         <activity android:name=".DER" />
         <activity android:name=".ResultActivity" />
 
