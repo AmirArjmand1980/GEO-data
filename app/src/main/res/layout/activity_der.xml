@@ -148,7 +148,7 @@
                     android:paddingLeft="5dp"
                     android:textSize="25sp"
                     android:id="@+id/DateDisplay1"
-                    android:text="SENSORS"
+                    android:text=""
                     android:textColor="#F80606"
                     android:textStyle="bold" />
                 
@@ -156,43 +156,31 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="80dp"
                 android:gravity="center"
                 android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
                 <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1.2"
                     android:gravity="center_vertical"
                     android:paddingLeft="5dp"
-                    android:text="Depth Tracking (B10):"
+                    android:text="PGD Unit Manager:"
                     android:textColor="@color/geodata"
-                    android:textStyle="bold"
-                    android:textSize="20sp"/>
-               <LinearLayout
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"
-                   android:orientation="horizontal">
-                   <TextView
-                       android:layout_width="0dp"
-                       android:layout_height="40dp"
-                       android:layout_weight=".5"
-                       android:text="No. of working sensors"/>
+                    android:textStyle="italic" />
 
-                   <Spinner
-                       android:id="@+id/simpleSpinner"
-                       android:layout_width="0dp"
-                       android:layout_height="wrap_content"
-                       android:layout_weight=".5"
-                       android:layout_centerHorizontal="true"
-                       android:layout_marginTop="100dp"
-                      />
-
-               </LinearLayout>
-
-                
+                <EditText
+                    android:id="@+id/Co3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="bottom"
+                    android:hint="Unit Manager"
+                    android:inputType="textCapWords"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
@@ -244,6 +232,12 @@
                     android:textStyle="italic" />
 
 
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:id="@+id/Cal2"
+                    android:src="@drawable/calendar"/>
             </LinearLayout>
 
             <LinearLayout
