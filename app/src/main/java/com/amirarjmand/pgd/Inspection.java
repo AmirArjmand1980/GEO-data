@@ -33,7 +33,7 @@ public class Inspection extends AppCompatActivity {
 
         tabLayout.setupWithViewPager(viewPager);
         
-        //hi
+        
 
     }
     }
