@@ -11,6 +11,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.amirarjmand.pgd.Inventory.Content;
+
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;

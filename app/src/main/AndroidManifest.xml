@@ -40,20 +40,20 @@
         <activity android:name=".UGOV_Form" />
         <activity android:name=".UGOV_Unit_List" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".Shortage" />
-        <activity android:name=".Description" />
+        <activity android:name=".Inventory.Shortage" />
+        <activity android:name=".Inventory.Description" />
         <activity android:name=".Unit_List" />
-        <activity android:name=".Accessory" />
-        <activity android:name=".Stationary" />
-        <activity android:name=".Tools" />
-        <activity android:name=".Safety" />
-        <activity android:name=".Testing" />
-        <activity android:name=".Geology" />
-        <activity android:name=".Cable" />
-        <activity android:name=".Sensor" />
-        <activity android:name=".Alarm" />
-        <activity android:name=".GAS" />
-        <activity android:name=".BUS" />
+        <activity android:name=".Inventory.Accessory" />
+        <activity android:name=".Inventory.Stationary" />
+        <activity android:name=".Inventory.Tools" />
+        <activity android:name=".Inventory.Safety" />
+        <activity android:name=".Inventory.Testing" />
+        <activity android:name=".Inventory.Geology" />
+        <activity android:name=".Inventory.Cable" />
+        <activity android:name=".Inventory.Sensor" />
+        <activity android:name=".Inventory.Alarm" />
+        <activity android:name=".Inventory.GAS" />
+        <activity android:name=".Inventory.BUS" />
         <activity android:name=".Splasher">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -61,9 +61,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RigInfo" />
-        <activity android:name=".Container" />
-        <activity android:name=".Content" />
+        <activity android:name=".Inventory.RigInfo" />
+        <activity android:name=".Inventory.Container" />
+        <activity android:name=".Inventory.Content" />
     </application>
 
 </manifest>

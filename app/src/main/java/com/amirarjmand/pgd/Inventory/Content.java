@@ -1,20 +1,18 @@
-package com.amirarjmand.pgd;
+package com.amirarjmand.pgd.Inventory;
 
-import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.net.Uri;
-import android.support.annotation.NonNull;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
 import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.amirarjmand.pgd.R;
+import com.amirarjmand.pgd.Unit_List;
+import com.amirarjmand.pgd.noTitle;
 
 import java.io.File;
 import java.util.ArrayList;

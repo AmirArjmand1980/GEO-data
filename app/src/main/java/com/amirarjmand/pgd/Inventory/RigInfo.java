@@ -1,4 +1,4 @@
-package com.amirarjmand.pgd;
+package com.amirarjmand.pgd.Inventory;
 
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +9,9 @@ import android.widget.EditText;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.amirarjmand.pgd.R;
+import com.amirarjmand.pgd.noTitle;
 
 import org.apache.poi.hssf.usermodel.HSSFCell;
 import org.apache.poi.hssf.usermodel.HSSFRow;
