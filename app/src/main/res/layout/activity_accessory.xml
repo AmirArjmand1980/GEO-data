@@ -3,13 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     android:orientation="vertical"
     tools:context=".Inventory.Accessory">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="125dp"
-        android:src="@drawable/logo" />
+        android:layout_width="146dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logorange" />
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,24 +26,18 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:paddingLeft="5dp"
-            android:text="Accessoies"
+            android:text="Accessories"
             android:textAlignment="center"
-            android:textColor="#A70707"
+            android:textColor="@color/geodata"
             android:textStyle="bold" />
-
 
     </LinearLayout>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/need"
-        android:id="@+id/Need"/>
 
     <ScrollView
+        android:id="@+id/Scrol"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/Scrol">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -69,10 +66,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -80,10 +80,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -91,9 +94,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -122,10 +128,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -133,10 +142,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -144,9 +156,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -175,10 +190,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -186,10 +204,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -197,9 +218,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -229,10 +253,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -240,10 +267,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -251,9 +281,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -282,10 +315,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -293,10 +329,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -304,9 +343,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -335,10 +377,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -346,10 +391,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -357,9 +405,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -387,10 +438,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -398,10 +452,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -409,9 +466,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -440,10 +500,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -451,10 +514,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -462,9 +528,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -493,10 +562,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -504,10 +576,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -515,9 +590,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -546,10 +624,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -557,10 +638,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -568,9 +652,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -599,10 +686,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -610,10 +700,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -621,9 +714,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -651,10 +747,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -662,10 +761,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -673,9 +775,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -702,10 +807,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -713,10 +821,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -724,9 +835,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -753,10 +867,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
-                    android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -764,10 +880,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -775,9 +894,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -804,10 +926,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -815,10 +940,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -826,9 +954,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -855,10 +986,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -866,10 +1000,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -877,9 +1014,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -907,10 +1047,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -918,10 +1061,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -929,9 +1075,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -958,10 +1107,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -969,10 +1121,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -980,9 +1135,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1009,10 +1167,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1020,10 +1181,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1031,9 +1195,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1060,10 +1227,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1071,10 +1241,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1082,9 +1255,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1111,10 +1287,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1122,10 +1301,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1133,9 +1315,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1162,10 +1347,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1173,10 +1361,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1184,9 +1375,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1213,10 +1407,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1224,10 +1421,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1235,9 +1435,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1264,10 +1467,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1275,10 +1481,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1286,9 +1495,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1315,10 +1527,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1326,10 +1541,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1337,9 +1555,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1366,10 +1587,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1377,10 +1601,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1388,9 +1615,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1417,10 +1647,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1428,10 +1661,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1439,9 +1675,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1469,10 +1708,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1480,10 +1722,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1491,9 +1736,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1520,10 +1768,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1531,10 +1782,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1542,9 +1796,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1571,10 +1828,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1582,10 +1842,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1593,9 +1856,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1623,10 +1889,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1634,10 +1903,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Spare"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1645,9 +1917,12 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="spec"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1658,14 +1933,22 @@
                 android:orientation="horizontal">
 
 
-
-            <Button
-                android:id="@+id/Save"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Save Changes" />
-
+                <Button
+                    android:id="@+id/Save"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="8dp"
+                    android:gravity="center"
+                    android:foregroundGravity="center"
+                    android:layout_marginBottom="24dp"
+                    android:background="@drawable/buttonshape"
+                    android:text="Save Changes"
+                    android:textColor="#000"
+                    android:textStyle="bold" />
 
 
             </LinearLayout>

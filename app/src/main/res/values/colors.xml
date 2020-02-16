@@ -3,10 +3,11 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <color name="geodata">#2E6534</color>
-    <color name="color_1">#54D8DBD5</color>
+    <color name="geodata">#F8F7F7</color>
+    <color name="color_1">#4AE9EEE4</color>
     <color name="color_2">#FF6E40</color>
     <color name="color_3">#E040FB</color>
     <color name="color_4">#12727474</color>
+    <color name="greentext">#52DD08</color>
 
 </resources>

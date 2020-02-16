@@ -5,24 +5,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/splashscreen"
    
     tools:context=".Splasher">
 
 
     <ImageView
-        android:layout_width="225dp"
-        android:layout_height="195dp"
-        android:layout_centerInParent="true"
+        android:layout_width="259dp"
+        android:layout_height="144dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        android:src="@drawable/logo"
+        android:foregroundGravity="center"
+        android:src="@drawable/logorange"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.452"
         tools:ignore="MissingConstraints" />
+
 
     <TextView
         android:layout_width="wrap_content"

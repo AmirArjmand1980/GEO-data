@@ -31,7 +31,6 @@ public class Accessory extends AppCompatActivity {
     Button save;
     String UnitNo;
     TextView header;
-    ImageView need;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -132,13 +131,8 @@ public class Accessory extends AppCompatActivity {
         c92 = findViewById(R.id.Co92);
         c93 = findViewById(R.id.Co93);
 
-        need=findViewById(R.id.Need);
-        need.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(Accessory.this, Shortage.class));
-            }
-        });
+
+      
 
         header = findViewById(R.id.HeaderC);
 
