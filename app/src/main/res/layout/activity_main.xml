@@ -3,107 +3,104 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/background"
+    android:orientation="vertical"
     tools:context=".Inventory.Container">
 
 
-
     <Button
+        android:id="@+id/Invent"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:text="Inventory List"
-        android:id="@+id/Invent"
-        android:layout_marginTop="50dp"
-        android:textColor="#000000"
-        android:textSize="20sp"
         android:layout_gravity="center"
-        android:background="@drawable/buttonshape"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/roundbutton"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
+        android:text="Inventory List"
+        android:textColor="@color/geodata"
+        android:textSize="20sp"
 
-       />
+        />
 
     <Button
+        android:id="@+id/Uad"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:text="Units Address"
-        android:id="@+id/Uad"
-        android:layout_marginTop="20dp"
-        android:textColor="#000000"
-        android:textSize="20sp"
         android:layout_gravity="center"
-        android:background="@drawable/buttonshape"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundbutton"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"
-        android:shadowRadius="5"/>
+
+        android:shadowRadius="5"
+        android:text="Units Address"
+        android:textColor="@color/geodata"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/UGOV"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:text="Units General Overview"
-        android:layout_marginTop="20dp"
-        android:textColor="#000000"
-        android:textSize="18sp"
         android:layout_gravity="center"
-        android:background="@drawable/buttonshape"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundbutton"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"
-        android:shadowRadius="5"/>
+        android:shadowRadius="5"
+        android:text="Units General Overview"
+        android:textColor="@color/geodata"
+        android:textSize="18sp" />
 
 
     <Button
         android:id="@+id/DailyPass"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:text="Daily Password Generator"
-        android:layout_marginTop="20dp"
-        android:textColor="#000000"
-        android:textSize="18sp"
         android:layout_gravity="center"
-        android:background="@drawable/buttonshape"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundbutton"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
-        />
+        android:text="Daily Password Generator"
+        android:textColor="@color/geodata"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/Repair"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:text="Repair Report"
-        android:layout_marginTop="20dp"
-        android:textColor="#000000"
-        android:textSize="20sp"
         android:layout_gravity="center"
-        android:background="@drawable/buttonshape"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundbutton"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
-        />
+        android:text="Repair Report"
+        android:textColor="@color/geodata"
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/Der"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:text="Damaged Defectived Report"
-        android:layout_marginTop="20dp"
-        android:textColor="#000000"
-        android:textSize="18sp"
         android:layout_gravity="center"
-        android:background="@drawable/buttonshape"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundbutton"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
-        />
+        android:text="Damaged Defectived Report"
+        android:textColor="@color/geodata"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/Inspect"
@@ -111,16 +108,14 @@
         android:layout_height="47dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:background="@drawable/buttonshape"
+        android:background="@drawable/roundbutton"
         android:shadowColor="#A8A8A8"
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
         android:text="Inspection Report"
-        android:textColor="#000000"
+        android:textColor="@color/geodata"
         android:textSize="18sp" />
-
-
 
 
 </LinearLayout>

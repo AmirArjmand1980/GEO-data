@@ -16,7 +16,7 @@ public class Splasher extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                startActivity(new Intent(Splasher.this, MainActivity.class));
+                startActivity(new Intent(Splasher.this, Login.class));
                 finish();
             }
         }, 2000);
