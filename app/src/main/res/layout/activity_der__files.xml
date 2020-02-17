@@ -4,15 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:background="@drawable/rowbgselector"
+    android:background="@drawable/background"
     android:orientation="vertical"
     tools:context=".RR_Files">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="125dp"
-        android:src="@drawable/logo" />
-
+        android:layout_width="146dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logorange" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
@@ -28,7 +28,7 @@
             android:id="@+id/HeaderC"
             android:text="Defective Report Files"
             android:textAlignment="center"
-            android:textColor="#A70707"
+            android:textColor="@color/geodata"
             android:textStyle="bold" />
     </LinearLayout>
 
@@ -51,12 +51,7 @@
                 android:drawSelectorOnTop="false"
                 android:listSelector="@android:color/darker_gray" />
 
-            <Button
-                android:id="@+id/Share"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:text="Share Selected Files" />
+
 
 
 

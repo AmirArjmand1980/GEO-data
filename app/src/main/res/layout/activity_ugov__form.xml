@@ -3,13 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
+
     android:orientation="vertical"
     tools:context=".Inventory.Cable">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="125dp"
-        android:src="@drawable/logo" />
+        android:layout_width="146dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logorange" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,11 +28,12 @@
             android:id="@+id/HeaderC"
             android:text="Cables and Plugs"
             android:textAlignment="center"
-            android:textColor="#A70707"
+            android:textColor="@color/geodata"
             android:textStyle="bold" />
 
 
     </LinearLayout>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -60,6 +64,9 @@
                     android:id="@+id/C01"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:layout_weight=".5"
                     android:gravity="bottom"
                     android:inputType="textCapWords"
@@ -87,12 +94,16 @@
                     android:id="@+id/C02"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:layout_weight=".5"
                     android:gravity="bottom"
                     android:inputType="textCapWords"
                     android:textAlignment="center"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -113,12 +124,16 @@
                     android:id="@+id/C03"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:layout_weight=".5"
                     android:gravity="bottom"
                     android:inputType="textCapWords"
                     android:textAlignment="center"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -140,11 +155,15 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:gravity="bottom"
                     android:inputType="textCapWords"
                     android:textAlignment="center"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -165,12 +184,16 @@
                     android:id="@+id/C05"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:layout_weight=".5"
                     android:gravity="bottom"
                     android:inputType="textPhonetic"
                     android:textAlignment="center"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -192,11 +215,15 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:gravity="bottom"
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -217,12 +244,16 @@
                     android:id="@+id/C07"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:layout_weight=".5"
                     android:gravity="bottom"
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -244,21 +275,27 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:gravity="bottom"
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Save"
                 android:id="@+id/Save"
+                android:layout_width="121dp"
+                android:layout_height="35dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"/>
+                android:layout_marginTop="20dp"
+                android:background="@drawable/roundbutton"
+                android:text="Save"
+                android:textColor="@color/geodata"
+                android:textSize="20sp" />
 
         </LinearLayout>
-
 
 
     </ScrollView>

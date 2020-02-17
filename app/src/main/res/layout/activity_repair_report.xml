@@ -3,14 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
 
     android:orientation="vertical"
     tools:context=".RepairReport">
-
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="125dp"
-        android:src="@drawable/logo" />
+        android:layout_width="146dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logorange" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +28,7 @@
             android:id="@+id/HeaderC"
             android:text="Repair Report"
             android:textAlignment="center"
-            android:textColor="#A70707"
+            android:textColor="@color/geodata"
             android:textStyle="bold" />
 
 
@@ -57,6 +58,7 @@
                     android:gravity="center_vertical"
                     android:paddingLeft="5dp"
                     android:text="Header Data"
+                    android:textColor="@color/geodata"
                     android:textSize="25sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -84,7 +86,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
-                    android:gravity="bottom"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"          android:gravity="bottom"
                     android:maxLength="40"
                     android:hint="Device Name"
                     android:inputType="textCapWords"
@@ -114,7 +118,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
-                    android:gravity="bottom"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"            android:gravity="bottom"
                     android:hint="Rig Name"
                     android:inputType="textCapCharacters"
                     android:textAlignment="center"
@@ -144,7 +150,9 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:gravity="bottom"
-                    android:hint="Serial No"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"         android:hint="Serial No"
                     android:inputType="textCapCharacters"
                     android:textAlignment="center"
                     android:textSize="20sp" />
@@ -172,7 +180,9 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
-                    android:gravity="bottom"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"         android:gravity="bottom"
                     android:hint="Unit No"
                     android:inputType="number"
                     android:textAlignment="center"
@@ -202,7 +212,9 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:gravity="bottom"
-                    android:hint="GEO/ No"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"        android:hint="GEO/ No"
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textSize="20sp" />
@@ -218,7 +230,7 @@
                     android:layout_weight="2"
                     android:gravity="center_vertical"
                     android:paddingLeft="5dp"
-                    android:id="@+id/txt"
+                    android:id="@+id/txt"    android:textColor="@color/geodata"
                     android:text="Problem Description"
                     android:textSize="25sp"
                     android:textStyle="bold" />
@@ -241,7 +253,9 @@
                     android:gravity="bottom"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
-                    android:keyboardNavigationCluster="false"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"        android:keyboardNavigationCluster="false"
                     android:maxLength="80"
                     android:textAlignment="center"
                     android:textSize="20sp" />
@@ -263,7 +277,9 @@
                     android:gravity="bottom"
                     android:keyboardNavigationCluster="true"
                     android:visibility="visible"
-                    android:hint="Problem Description"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"       android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:textAlignment="center"
                     android:textSize="20sp" />
@@ -280,6 +296,7 @@
                     android:layout_weight="2"
                     android:gravity="center_vertical"
                     android:paddingLeft="5dp"
+                    android:textColor="@color/geodata"
                     android:text="Repairig Description"
                     android:textSize="25sp"
                     android:textStyle="bold" />
@@ -300,7 +317,9 @@
                     android:layout_weight="2"
                     android:maxLength="80"
                     android:gravity="bottom"
-                    android:keyboardNavigationCluster="true"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"       android:keyboardNavigationCluster="true"
 
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
@@ -322,7 +341,9 @@
                     android:layout_weight="2"
                     android:maxLength="80"
                     android:gravity="bottom"
-                    android:keyboardNavigationCluster="true"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"       android:keyboardNavigationCluster="true"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:textAlignment="center"
@@ -344,7 +365,9 @@
                     android:layout_weight="2"
                     android:maxLength="80"
                     android:gravity="bottom"
-                    android:keyboardNavigationCluster="true"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"       android:keyboardNavigationCluster="true"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:textAlignment="center"
@@ -366,7 +389,9 @@
                     android:maxLength="80"
                     android:gravity="bottom"
                     android:keyboardNavigationCluster="true"
-                    android:hint="Problem Description"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"      android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:textAlignment="center"
                     android:textSize="20sp" />
@@ -384,7 +409,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
-                    android:maxLength="80"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"       android:maxLength="80"
                     android:gravity="bottom"
                     android:keyboardNavigationCluster="true"
                     android:hint="Problem Description"
@@ -406,6 +433,7 @@
                     android:gravity="center_vertical"
                     android:paddingLeft="5dp"
                     android:text="Result"
+                    android:textColor="@color/geodata"
                     android:textSize="25sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -421,7 +449,9 @@
                     android:id="@+id/Ok"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="OK"
+                    android:buttonTint="@color/geodata"
+
+                    android:textColor="@color/geodata"        android:text="OK"
                     android:layout_marginStart="10dp"
                     android:textSize="15sp"
                     android:checked="false" />
@@ -430,7 +460,9 @@
                     android:id="@+id/Waste"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="15sp"
+                    android:buttonTint="@color/geodata"
+
+                    android:textColor="@color/geodata"      android:textSize="15sp"
                     android:checked="false"
                    android:layout_marginStart="20dp"
                     android:text="Waste" />
@@ -440,7 +472,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="15sp"
-                    android:checked="false"
+                    android:buttonTint="@color/geodata"
+
+                    android:textColor="@color/geodata"        android:checked="false"
                     android:layout_marginStart="20dp"
                     android:text="Try Later" />
 
@@ -459,6 +493,7 @@
                     android:layout_marginTop="20dp"
                     android:gravity="center_vertical"
                     android:paddingLeft="5dp"
+                    android:textColor="@color/geodata"
                     android:text="Used spare part for repairing:"
                     android:textSize="25sp"
                     android:textStyle="bold" />
@@ -475,7 +510,9 @@
                     android:id="@+id/Yes"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Yes"
+                    android:buttonTint="@color/geodata"
+
+                    android:textColor="@color/geodata"         android:text="Yes"
                     android:layout_marginStart="20dp"
                     android:textSize="15sp"
                     android:checked="false" />
@@ -484,7 +521,9 @@
                     android:id="@+id/No"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="15sp"
+                    android:buttonTint="@color/geodata"
+
+                    android:textColor="@color/geodata"    android:textSize="15sp"
                     android:checked="false"
                     android:layout_marginStart="60dp"
                     android:text="No" />
@@ -516,7 +555,9 @@
                     android:layout_height="match_parent"
                     android:layout_weight="2"
                     android:gravity="bottom"
-                    android:maxLength="40"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"     android:maxLength="40"
                     android:hint="Repair Expert"
                     android:inputType="textCapWords"
                     android:textAlignment="center"
@@ -542,6 +583,9 @@
 
                 <CalendarView
                     android:id="@+id/Calen"
+                  android:backgroundTint="@color/geodata"
+                    android:foregroundTint="@color/geodata"
+                    android:background="@color/geodata"
                     android:layout_width="300dp"
                     android:layout_height="400dp" />
 
@@ -557,20 +601,24 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight=".2"
+                android:background="@drawable/roundbutton"
+                android:textColor="@color/geodata"
                 android:layout_gravity="center"
                 android:text="Save Changes" />
             <Button
                 android:id="@+id/FL"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight=".2"
+                android:background="@drawable/roundbutton"
+                android:textColor="@color/geodata"   android:layout_weight=".2"
                 android:layout_gravity="center"
                 android:text="File List" />
 
                 <Button
                     android:id="@+id/Blank"
                     android:layout_width="0dp"
-                    android:layout_weight=".2"
+                    android:background="@drawable/roundbutton"
+                    android:textColor="@color/geodata"      android:layout_weight=".2"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="Blank Form" />
@@ -578,7 +626,8 @@
                 <Button
                     android:id="@+id/Sharing"
                     android:layout_width="0dp"
-                    android:layout_weight=".2"
+                    android:background="@drawable/roundbutton"
+                    android:textColor="@color/geodata"    android:layout_weight=".2"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="Share File" />

@@ -29,7 +29,7 @@ public class RR_Files extends AppCompatActivity {
     List<String> arr;
     String[] fileName = {};
     String dirpath2,dirpath, listt;
-    Button sharing;
+
 
     @Override
         protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +38,7 @@ public class RR_Files extends AppCompatActivity {
         setContentView(R.layout.activity_rr__files);
 
         lv=findViewById(R.id.Flist);
-        sharing=findViewById(R.id.Share);
+
 
         dirpath2 = Environment.getExternalStorageDirectory().getAbsolutePath() + "/GEO-data/RepairReport/Temp";
         dirpath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/GEO-data/RepairReport";
@@ -87,38 +87,7 @@ public class RR_Files extends AppCompatActivity {
         });
 
 
-        sharing.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
 
-                SparseBooleanArray checked = lv.getCheckedItemPositions();
-                ArrayList<String> selectedItems = new ArrayList<String>();
-                for (int i = 0; i < checked.size(); i++) {
-                    // Item position in adapter
-                    int position = checked.keyAt(i);
-                    // Add sport if it is checked i.e.) == TRUE!
-                    if (checked.valueAt(i))
-                        selectedItems.add(adapter.getItem(position));
-                }
-                String[] outputStrArr = new String[selectedItems.size()];
-
-                for (int i = 0; i < selectedItems.size(); i++) {
-                    outputStrArr[i] = selectedItems.get(i);
-                }
-                Intent intent = new Intent(getApplicationContext(),
-                        ResultActivity.class);
-
-                // Create a bundle object
-                Bundle b = new Bundle();
-                b.putStringArray("selectedItems", outputStrArr);
-
-                // Add the bundle to the intent.
-                intent.putExtras(b);
-
-                // start the ResultActivity
-                startActivity(intent);
-            }
-        });
 
     }
 

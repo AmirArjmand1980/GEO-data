@@ -3,14 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
+    android:background="@drawable/background"
     android:orientation="vertical"
     tools:context=".RepairReport">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="125dp"
-        android:src="@drawable/logo" />
+        android:layout_width="146dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logorange" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
@@ -18,22 +20,22 @@
         android:orientation="horizontal">
 
         <TextView
+            android:id="@+id/HeaderC"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:paddingLeft="5dp"
-            android:textSize="20sp"
-            android:id="@+id/HeaderC"
             android:text="Defectived Report"
             android:textAlignment="center"
-            android:textColor="#A70707"
+            android:textColor="@color/geodata"
+            android:textSize="20sp"
             android:textStyle="bold" />
     </LinearLayout>
 
     <ScrollView
+        android:id="@+id/Scrol1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/Scrol1">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -41,23 +43,20 @@
             android:orientation="vertical">
 
 
-
-
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <TextView
+                    android:id="@+id/T1"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1.2"
                     android:gravity="center_vertical"
                     android:paddingLeft="5dp"
-                    android:id="@+id/T1"
                     android:text="Rig Name:"
                     android:textColor="@color/geodata"
                     android:textStyle="italic" />
@@ -67,27 +66,32 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+
                     android:gravity="bottom"
-                    android:maxLength="40"
                     android:hint="Rig Name"
                     android:inputType="textCapCharacters"
+                    android:maxLength="40"
                     android:textAlignment="center"
+                    android:backgroundTint="@color/geodata"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <TextView
+                    android:id="@+id/T2"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1.2"
                     android:gravity="center_vertical"
                     android:paddingLeft="5dp"
-                    android:id="@+id/T2"
                     android:text="Unit No:"
                     android:textColor="@color/geodata"
                     android:textStyle="italic" />
@@ -97,10 +101,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Unit Number"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -109,8 +116,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="0dp"
@@ -125,41 +132,41 @@
 
 
                 <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight=".5"
                     android:id="@+id/Cal1"
-                    android:src="@drawable/calendar"/>
-
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight=".5"
+                    android:src="@drawable/calendar" />
 
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <TextView
+                    android:id="@+id/DateDisplay1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:paddingLeft="5dp"
-                    android:textSize="25sp"
-                    android:id="@+id/DateDisplay1"
                     android:text=""
-                    android:textColor="#F80606"
+                    android:textColor="@color/geodata"
+                    android:textSize="25sp"
                     android:textStyle="bold" />
-                
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="0dp"
@@ -176,10 +183,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Unit Manager"
                     android:inputType="textCapWords"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -188,8 +198,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="0dp"
@@ -206,19 +216,23 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="PGD Representative"
                     android:inputType="textCapWords"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="0dp"
@@ -233,32 +247,33 @@
 
 
                 <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight=".5"
                     android:id="@+id/Cal2"
-                    android:src="@drawable/calendar"/>
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight=".5"
+                    android:src="@drawable/calendar" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <TextView
+                    android:id="@+id/DateDisplay2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:paddingLeft="5dp"
-                    android:textSize="25sp"
-                    android:id="@+id/DateDisplay2"
                     android:text=""
-                    android:textColor="#F80606"
+                    android:textColor="@color/geodata"
+                    android:textSize="25sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
@@ -271,17 +286,18 @@
                     android:gravity="center_vertical"
                     android:paddingLeft="5dp"
                     android:text="Problem short description"
+                    android:textColor="@color/geodata"
                     android:textSize="25sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/linear1"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:id="@+id/linear1"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="10dp">
 
 
                 <EditText
@@ -289,12 +305,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:keyboardNavigationCluster="false"
                     android:maxLength="80"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -310,6 +329,7 @@
                     android:gravity="center_vertical"
                     android:paddingLeft="5dp"
                     android:text="Date and Time of Arrival at Rig:"
+                    android:textColor="@color/geodata"
                     android:textSize="25sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -318,38 +338,37 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="horizontal">
-
+                android:orientation="horizontal"
+                android:padding="10dp">
 
 
                 <ImageView
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight=".5"
                     android:id="@+id/Cal3"
-                    android:src="@drawable/calendar"/>
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_weight=".5"
+                    android:src="@drawable/calendar" />
 
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <TextView
+                    android:id="@+id/DateDisplay3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:paddingLeft="5dp"
-                    android:textSize="25sp"
-                    android:id="@+id/DateDisplay3"
                     android:text=""
-                    android:textColor="#F80606"
+                    android:textColor="@color/geodata"
+                    android:textSize="25sp"
                     android:textStyle="bold" />
-
 
 
             </LinearLayout>
@@ -367,6 +386,7 @@
                     android:gravity="center_vertical"
                     android:paddingLeft="5dp"
                     android:text="Date and Time of Departure from Rig:"
+                    android:textColor="@color/geodata"
                     android:textSize="25sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -375,34 +395,35 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="horizontal">
-                
+                android:orientation="horizontal"
+                android:padding="10dp">
+
 
                 <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-
                     android:id="@+id/Cal4"
-                    android:src="@drawable/calendar"/>
+                    android:layout_width="match_parent"
+
+                    android:layout_height="match_parent"
+                    android:src="@drawable/calendar" />
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <TextView
+                    android:id="@+id/DateDisplay4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:paddingLeft="5dp"
-                    android:textSize="25sp"
-                    android:id="@+id/DateDisplay4"
                     android:text=""
-                    android:textColor="#F80606"
+                    android:textColor="@color/geodata"
+                    android:textSize="25sp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -411,8 +432,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="0dp"
@@ -429,10 +450,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Km"
                     android:inputType="number"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -441,8 +465,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="0dp"
@@ -459,10 +483,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Device Name"
                     android:inputType="textCapWords"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -471,8 +498,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:padding="10dp">
 
                 <TextView
                     android:layout_width="0dp"
@@ -489,10 +516,13 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Serial/No"
                     android:inputType="text"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -509,6 +539,7 @@
                     android:gravity="center_vertical"
                     android:paddingLeft="5dp"
                     android:text="Repairing Description"
+                    android:textColor="@color/geodata"
                     android:textSize="25sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -517,8 +548,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="10dp">
 
 
                 <EditText
@@ -526,20 +557,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:keyboardNavigationCluster="false"
                     android:maxLength="148"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="10dp">
 
 
                 <EditText
@@ -547,20 +582,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:keyboardNavigationCluster="false"
                     android:maxLength="148"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="10dp">
 
 
                 <EditText
@@ -568,20 +607,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:keyboardNavigationCluster="false"
                     android:maxLength="148"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="10dp">
 
 
                 <EditText
@@ -589,20 +632,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:keyboardNavigationCluster="false"
                     android:maxLength="148"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="10dp">
 
 
                 <EditText
@@ -610,20 +657,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:keyboardNavigationCluster="false"
                     android:maxLength="148"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="10dp">
 
 
                 <EditText
@@ -631,20 +682,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:keyboardNavigationCluster="false"
                     android:maxLength="148"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="10dp">
 
 
                 <EditText
@@ -652,20 +707,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:keyboardNavigationCluster="false"
                     android:maxLength="148"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="10dp">
 
 
                 <EditText
@@ -673,20 +732,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:keyboardNavigationCluster="false"
                     android:maxLength="148"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="10dp">
 
 
                 <EditText
@@ -694,20 +757,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:keyboardNavigationCluster="false"
                     android:maxLength="148"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="10dp">
 
 
                 <EditText
@@ -715,20 +782,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:keyboardNavigationCluster="false"
                     android:maxLength="148"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="10dp">
 
 
                 <EditText
@@ -736,20 +807,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:keyboardNavigationCluster="false"
                     android:maxLength="148"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="10dp">
 
 
                 <EditText
@@ -757,20 +832,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:keyboardNavigationCluster="false"
                     android:maxLength="148"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="10dp">
 
 
                 <EditText
@@ -778,20 +857,24 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:keyboardNavigationCluster="false"
                     android:maxLength="148"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
                 android:gravity="center"
-                android:padding="10dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="10dp">
 
 
                 <EditText
@@ -799,12 +882,15 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
+                    android:backgroundTint="@color/geodata"
                     android:gravity="bottom"
                     android:hint="Problem Description"
                     android:inputType="textCapSentences"
                     android:keyboardNavigationCluster="false"
                     android:maxLength="148"
                     android:textAlignment="center"
+                    android:textColor="@color/geodata"
+                    android:textColorHint="@color/geodata"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -817,39 +903,45 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="2"
                     android:layout_marginTop="20dp"
+                    android:layout_weight="2"
                     android:gravity="center_vertical"
                     android:paddingLeft="5dp"
                     android:text="Repaired on Site? "
+                    android:textColor="@color/geodata"
                     android:textSize="25sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
             <RadioGroup
                 android:id="@+id/RG1"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
 
                 <RadioButton
                     android:id="@+id/RBy1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Yes"
                     android:layout_marginStart="20dp"
-                    android:textSize="20sp"
-                    android:checked="false" />
+                    android:text="Yes"
+                    android:checked="false"
+                    android:buttonTint="@color/geodata"
+
+                    android:textColor="@color/geodata"
+                    android:textSize="20sp" />
 
                 <RadioButton
                     android:id="@+id/RBn1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:checked="false"
                     android:layout_marginStart="60dp"
-                    android:text="No" />
+                    android:buttonTint="@color/geodata"
+                    android:checked="false"
+                    android:text="No"
+                    android:textColor="@color/geodata"
+                    android:textSize="20sp" />
 
             </RadioGroup>
 
@@ -862,39 +954,44 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="2"
                     android:layout_marginTop="20dp"
+                    android:layout_weight="2"
                     android:gravity="center_vertical"
                     android:paddingLeft="5dp"
                     android:text="Replaced by Spare?  "
+                    android:textColor="@color/geodata"
                     android:textSize="25sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
             <RadioGroup
                 android:id="@+id/RG2"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
 
                 <RadioButton
                     android:id="@+id/RBy2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Yes"
                     android:layout_marginStart="20dp"
-                    android:textSize="20sp"
-                    android:checked="false" />
+                    android:checked="false"
+                    android:buttonTint="@color/geodata"
+                    android:text="Yes"
+                    android:textColor="@color/geodata"
+                    android:textSize="20sp" />
 
                 <RadioButton
                     android:id="@+id/RBn2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:checked="false"
                     android:layout_marginStart="60dp"
-                    android:text="No" />
+                    android:buttonTint="@color/geodata"
+                    android:checked="false"
+                    android:text="No"
+                    android:textColor="@color/geodata"
+                    android:textSize="20sp" />
 
             </RadioGroup>
 
@@ -907,39 +1004,44 @@
                 <TextView
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="2"
                     android:layout_marginTop="20dp"
+                    android:layout_weight="2"
                     android:gravity="center_vertical"
                     android:paddingLeft="5dp"
                     android:text="Equipment to Ahwas? "
+                    android:textColor="@color/geodata"
                     android:textSize="25sp"
                     android:textStyle="bold" />
             </LinearLayout>
 
             <RadioGroup
                 android:id="@+id/RG3"
-                android:orientation="horizontal"
-                android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
 
                 <RadioButton
                     android:id="@+id/RBy3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Yes"
                     android:layout_marginStart="20dp"
-                    android:textSize="20sp"
-                    android:checked="false" />
+                    android:buttonTint="@color/geodata"
+                    android:checked="false"
+                    android:text="Yes"
+                    android:textColor="@color/geodata"
+                    android:textSize="20sp" />
 
                 <RadioButton
                     android:id="@+id/RBn3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="20sp"
-                    android:checked="false"
+                    android:buttonTint="@color/geodata"
                     android:layout_marginStart="60dp"
-                    android:text="No" />
+                    android:checked="false"
+                    android:text="No"
+                    android:textColor="@color/geodata"
+                    android:textSize="20sp" />
 
             </RadioGroup>
 
@@ -952,63 +1054,64 @@
                     android:id="@+id/Save"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight=".2"
                     android:layout_gravity="center"
-                    android:text="Save Changes" />
+                    android:layout_weight=".2"
+                    android:background="@drawable/roundbutton"
+                    android:text="Save Changes"
+                    android:textColor="@color/geodata" />
+
                 <Button
                     android:id="@+id/FL"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight=".2"
                     android:layout_gravity="center"
-                    android:text="File List" />
+                    android:layout_weight=".2"
+                    android:background="@drawable/roundbutton"
+                    android:text="File List"
+                    android:textColor="@color/geodata" />
 
                 <Button
                     android:id="@+id/Blank"
                     android:layout_width="0dp"
-                    android:layout_weight=".2"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Blank Form" />
+                    android:layout_weight=".2"
+                    android:background="@drawable/roundbutton"
+                    android:text="Blank Form"
+                    android:textColor="@color/geodata" />
 
                 <Button
                     android:id="@+id/Sharing"
                     android:layout_width="0dp"
-                    android:layout_weight=".2"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Share File" />
+                    android:layout_weight=".2"
+                    android:background="@drawable/roundbutton"
+                    android:text="Share File"
+                    android:textColor="@color/geodata" />
 
             </LinearLayout>
-
-
 
 
         </LinearLayout>
 
 
     </ScrollView>
-            
 
 
-
-
-
-     <TimePicker
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:id="@+id/Time_picker"
-         android:visibility="invisible"/>
-
-
+    <TimePicker
+        android:id="@+id/Time_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
 
 
     <DatePicker
         android:id="@+id/date_picker"
         android:layout_width="wrap_content"
-        android:calendarViewShown="false"
         android:layout_height="wrap_content"
-        android:visibility="invisible"/>
+        android:calendarViewShown="false"
+        android:visibility="invisible" />
 
 </LinearLayout>
 

@@ -81,13 +81,14 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight=".5"
-                    android:backgroundTint="@color/geodata"
+
                     android:gravity="bottom"
                     android:hint="In use"
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
                     android:textColorHint="@color/geodata"
+                    android:backgroundTint="@color/geodata"
                     android:textSize="10sp" />
 
                 <EditText
