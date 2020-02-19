@@ -72,7 +72,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -86,7 +86,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -99,7 +99,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -134,7 +134,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -148,7 +148,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -161,7 +161,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -196,7 +196,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -210,7 +210,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -223,7 +223,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -259,7 +259,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -273,7 +273,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -286,7 +286,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -321,7 +321,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -335,7 +335,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -348,7 +348,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -383,7 +383,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -397,7 +397,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -410,7 +410,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -444,7 +444,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -458,7 +458,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -471,7 +471,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -506,7 +506,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -520,7 +520,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -533,7 +533,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -568,7 +568,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -582,7 +582,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -595,7 +595,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -630,7 +630,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -644,7 +644,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -657,7 +657,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
 
@@ -692,7 +692,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -706,7 +706,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -719,7 +719,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -753,7 +753,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -767,7 +767,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -780,7 +780,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -813,7 +813,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -827,7 +827,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -840,7 +840,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -872,7 +872,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -886,7 +886,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -899,7 +899,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -932,7 +932,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -946,7 +946,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -959,7 +959,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -992,7 +992,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1006,7 +1006,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1019,7 +1019,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1053,7 +1053,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1067,7 +1067,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1080,7 +1080,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1113,7 +1113,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1127,7 +1127,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1140,7 +1140,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1173,7 +1173,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1187,7 +1187,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1200,7 +1200,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1233,7 +1233,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1247,7 +1247,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1260,7 +1260,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1293,7 +1293,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1307,7 +1307,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1320,7 +1320,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1353,7 +1353,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1367,7 +1367,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1380,7 +1380,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1413,7 +1413,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1427,7 +1427,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1440,7 +1440,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1473,7 +1473,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1487,7 +1487,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1500,7 +1500,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1533,7 +1533,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1547,7 +1547,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1560,7 +1560,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1593,7 +1593,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1607,7 +1607,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1620,7 +1620,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1653,7 +1653,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1667,7 +1667,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1680,7 +1680,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1714,7 +1714,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1728,7 +1728,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1741,7 +1741,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1774,7 +1774,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1788,7 +1788,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1801,7 +1801,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1834,7 +1834,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1848,7 +1848,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1861,7 +1861,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>
@@ -1895,7 +1895,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1909,7 +1909,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp" />
 
                 <EditText
@@ -1922,7 +1922,7 @@
                     android:hint="spec"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="10sp"
                     android:textStyle="italic" />
             </LinearLayout>

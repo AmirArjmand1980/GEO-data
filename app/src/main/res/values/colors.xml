@@ -8,6 +8,7 @@
     <color name="color_2">#FF6E40</color>
     <color name="color_3">#E040FB</color>
     <color name="color_4">#12727474</color>
-    <color name="greentext">#52DD08</color>
+    <color name="hint">#939692</color>
+
 
 </resources>

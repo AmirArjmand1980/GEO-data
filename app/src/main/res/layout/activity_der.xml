@@ -66,7 +66,6 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="2"
-
                     android:gravity="bottom"
                     android:hint="Rig Name"
                     android:inputType="textCapCharacters"
@@ -74,8 +73,8 @@
                     android:textAlignment="center"
                     android:backgroundTint="@color/geodata"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
-                    android:textSize="20sp" />
+                    android:textColorHint="@color/hint"
+                    android:textSize="15sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -107,8 +106,8 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
-                    android:textSize="20sp" />
+                    android:textColorHint="@color/hint"
+                    android:textSize="15sp" />
 
             </LinearLayout>
 
@@ -189,8 +188,8 @@
                     android:inputType="textCapWords"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
-                    android:textSize="20sp" />
+                    android:textColorHint="@color/hint"
+                    android:textSize="15sp" />
 
             </LinearLayout>
 
@@ -222,8 +221,8 @@
                     android:inputType="textCapWords"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
-                    android:textSize="20sp" />
+                    android:textColorHint="@color/hint"
+                    android:textSize="15sp" />
 
             </LinearLayout>
 
@@ -313,8 +312,8 @@
                     android:maxLength="80"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
-                    android:textSize="20sp" />
+                    android:textColorHint="@color/hint"
+                    android:textSize="15sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -456,7 +455,7 @@
                     android:inputType="number"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -489,7 +488,7 @@
                     android:inputType="textCapWords"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -522,7 +521,7 @@
                     android:inputType="text"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -565,7 +564,7 @@
                     android:maxLength="148"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -590,7 +589,7 @@
                     android:maxLength="148"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -615,7 +614,7 @@
                     android:maxLength="148"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -640,7 +639,7 @@
                     android:maxLength="148"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -665,7 +664,7 @@
                     android:maxLength="148"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -690,7 +689,7 @@
                     android:maxLength="148"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -715,7 +714,7 @@
                     android:maxLength="148"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -740,7 +739,7 @@
                     android:maxLength="148"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -765,7 +764,7 @@
                     android:maxLength="148"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -790,7 +789,7 @@
                     android:maxLength="148"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -815,7 +814,7 @@
                     android:maxLength="148"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -840,7 +839,7 @@
                     android:maxLength="148"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -865,7 +864,7 @@
                     android:maxLength="148"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -890,7 +889,7 @@
                     android:maxLength="148"
                     android:textAlignment="center"
                     android:textColor="@color/geodata"
-                    android:textColorHint="@color/geodata"
+                    android:textColorHint="@color/hint"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -928,7 +927,6 @@
                     android:text="Yes"
                     android:checked="false"
                     android:buttonTint="@color/geodata"
-
                     android:textColor="@color/geodata"
                     android:textSize="20sp" />
 

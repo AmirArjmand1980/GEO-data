@@ -3,13 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     android:orientation="vertical"
     tools:context=".Inventory.Shortage">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="125dp"
-        android:src="@drawable/logo" />
+        android:layout_width="146dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logorange" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,7 +27,7 @@
             android:paddingLeft="5dp"
             android:text="Shortage"
             android:textAlignment="center"
-            android:textColor="#A70707"
+            android:textColor="@color/geodata"
             android:textStyle="bold" />
 
 
@@ -44,160 +46,220 @@
                 android:id="@+id/E1"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.1"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E2"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.2"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E3"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.3"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E4"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.4"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E5"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.5"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E6"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.6"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E7"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.7"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E8"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.8"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E9"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.9"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E10"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.10"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E11"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.11"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E12"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.12"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E13"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.13"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E14"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.14"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E15"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.15"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E16"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.16"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E17"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.17"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E18"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.18"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E19"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.19"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E20"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.20"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
@@ -205,416 +267,572 @@
 
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.21"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E22"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.22"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E23"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.23"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E24"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.24"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E25"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.25"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E26"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.26"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E27"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.27"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E28"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.28"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E29"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.29"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E30"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.30"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E31"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.31"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E32"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.32"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E33"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.33"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E34"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.34"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E35"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.35"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E36"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.36"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E37"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.37"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E38"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.38"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E39"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.39"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E40"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.40"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E41"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.41"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E42"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.42"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E43"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.43"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E44"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.44"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E45"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.45"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E46"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.46"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E47"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.47"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E48"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.48"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E49"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.49"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E50"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.50"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E51"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.51"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E52"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.52"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E53"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.53"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E54"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.54"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E55"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.55"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E56"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.56"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E57"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.57"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E58"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.58"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E59"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.59"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E60"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.60"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E61"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.61"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E62"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.62"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E63"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.63"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E64"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.64"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E65"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.65"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E66"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.66"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E67"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.67"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E68"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.68"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E69"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.69"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E70"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.70"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E71"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.71"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E72"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.72"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
 
@@ -622,80 +840,110 @@
                 android:id="@+id/E73"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.73"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E74"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.74"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E75"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.75"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E76"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.76"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E77"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.77"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E78"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.78"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E79"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.79"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E80"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.80"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E81"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.81"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E82"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.82"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
 
@@ -703,100 +951,140 @@
                 android:id="@+id/E83"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.83"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E84"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.84"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E85"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.85"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E86"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.86"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E87"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.87"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E88"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.88"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E89"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.89"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E90"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.90"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E91"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.91"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E92"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.92"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
 
             <EditText
                 android:id="@+id/E93"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
+                android:backgroundTint="@color/geodata"
                 android:hint="NO.93"
                 android:textAlignment="center"
+                android:textColor="@color/geodata"
+                android:textColorHint="@color/hint"
                 android:textSize="15sp" />
-
-
-
 
 
             <Button
                 android:id="@+id/Save"
-                android:layout_width="wrap_content"
+                style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="Save Changes" />
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/buttonshape"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                android:text="Save Changes"
+                android:textColor="@color/geodata"
+                android:textStyle="bold" />
 
 
         </LinearLayout>

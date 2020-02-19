@@ -6,13 +6,16 @@
     android:layout_width="match_parent"
     android:backgroundTintMode="multiply"
     android:backgroundTint="@color/geodata"
+    android:background="@drawable/background"
     android:layout_height="match_parent"
     tools:context=".Unit_Loc_List">
 
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="125dp"
-        android:src="@drawable/logo" />
+        android:layout_width="146dp"
+        android:layout_height="111dp"
+        android:src="@drawable/logorange"
+        android:layout_gravity="center"/>
+
 
     <ImageView
         android:id="@+id/Sharing"

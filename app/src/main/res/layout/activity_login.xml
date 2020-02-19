@@ -44,7 +44,7 @@
             android:hint="Username or Mobile Number"
             android:singleLine="true"
             android:textColor="#FFFFFF"
-            android:textColorHint="#cccccc"
+            android:textColorHint="@color/hint"
             android:textSize="17sp" />
 
         <EditText
@@ -62,7 +62,7 @@
             android:inputType="textPassword"
             android:singleLine="true"
             android:textColor="#FFFFFF"
-            android:textColorHint="#cccccc"
+            android:textColorHint="@color/hint"
             android:textSize="17sp" />
 
 
