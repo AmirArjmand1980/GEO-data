@@ -17,7 +17,6 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".SignUp"></activity>
         <activity android:name=".Login" />
-        <activity android:name=".Inspection" />
         <activity android:name=".DER_Files" />
         <activity android:name=".DER" />
         <activity android:name=".ResultActivity" />

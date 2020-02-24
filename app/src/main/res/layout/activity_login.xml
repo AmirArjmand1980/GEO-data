@@ -22,7 +22,6 @@
         android:textStyle="bold"
         android:padding="10dp"
         android:text="Welcome to PARS GEO-data"
-        android:background="@color/geodata2"
         android:textAlignment="center"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:textColor="#FFFFFF"
@@ -98,7 +97,6 @@
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
-        android:background="@color/geodata2"
         android:textStyle="bold" />
 
     <Button
