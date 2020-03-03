@@ -7,6 +7,13 @@
     android:orientation="vertical"
     tools:context=".Inventory.Container">
 
+    <ImageView
+        android:layout_width="146dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logorange"
+        tools:ignore="MissingConstraints" />
+
 
     <Button
         android:id="@+id/Invent"

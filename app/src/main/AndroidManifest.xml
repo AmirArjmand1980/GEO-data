@@ -15,7 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".SignUp"></activity>
+        <activity android:name=".Inspection_Frags.Inspection_Sensor"></activity>
+        <activity android:name=".Inspection_Frags.Inspection" />
+        <activity android:name=".SignUp" />
         <activity android:name=".Login" />
         <activity android:name=".DER_Files" />
         <activity android:name=".DER" />

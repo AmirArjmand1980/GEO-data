@@ -12,6 +12,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.amirarjmand.pgd.Inspection_Frags.Inspection;
+
 public class MainActivity extends AppCompatActivity {
     Button inv,ugov, uadrs, daily, repair, der, inspect;
     private static final int MY_PERMISSION_REQUEST_STORAGE = 1;
@@ -93,8 +95,7 @@ public class MainActivity extends AppCompatActivity {
         inspect=findViewById(R.id.Inspect);
         inspect.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, Inspection.class));
+            public void onClick(View v) { startActivity(new Intent(MainActivity.this, Inspection.class));
 
             }
         });

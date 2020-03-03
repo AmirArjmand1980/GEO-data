@@ -383,13 +383,13 @@ public class RepairReport extends AppCompatActivity {
 
 
             myInputStream.close();
-            FileOutputStream fos = new FileOutputStream(new File(android.os.Environment.getExternalStorageDirectory() + "/GEO-data/RepairReport/", filename));
-            workbook.write(fos);
-            fos.close();
-            Toast.makeText(context, "Changes are done.", Toast.LENGTH_SHORT).show();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
+        FileOutputStream fos = new FileOutputStream(new File(android.os.Environment.getExternalStorageDirectory() + "/GEO-data/RepairReport/", filename));
+        workbook.write(fos);
+        fos.close();
+        Toast.makeText(context, "Changes are done.", Toast.LENGTH_SHORT).show();
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
     }
 
     private void copyAsset(String filename) {
