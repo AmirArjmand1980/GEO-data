@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".Inspection_Frags.Inspection">
+
+
+    <ImageView
+        android:layout_width="146dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logorange"
+        tools:ignore="MissingConstraints" />
+
+
+    <Button
+        android:id="@+id/Sensor"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/roundbutton"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="ُSensors"
+        android:textColor="@color/geodata"
+        android:textSize="15sp"
+        android:onClick="gotos"
+        />
+
+    <Button
+        android:id="@+id/Gas"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/roundbutton"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+
+        android:shadowRadius="5"
+        android:text="Gas Detection and Gas Equipments"
+        android:textColor="@color/geodata"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/Computer"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/roundbutton"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Network System, Computers"
+        android:textColor="@color/geodata"
+        android:textSize="15sp" />
+
+
+    <Button
+        android:id="@+id/Geology"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/roundbutton"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="Geology Equipments and Materials"
+        android:textColor="@color/geodata"
+        android:textSize="15sp" />
+
+</LinearLayout>

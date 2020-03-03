@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/hint"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Inspection Report"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColorHint="@color/hint2"
+        android:theme="@style/EditTextHint"> 
+
+        <EditText
+            android:id="@+id/UnitNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/geodata"
+            android:drawableLeft="@drawable/ic_contact_phone_white_24dp"
+            android:drawablePadding="10dp"
+            android:hint="Unit Number"
+            android:inputType="number"
+            android:outlineAmbientShadowColor="@color/geodata"
+            android:outlineSpotShadowColor="@color/geodata"
+            android:shadowColor="@color/geodata"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="@color/geodata"
+            android:textColorHint="@color/hint2"
+            android:textColorLink="@color/geodata"
+            android:textSize="17sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColorHint="@color/hint2"
+        android:theme="@style/EditTextHint">
+
+        <EditText
+            android:id="@+id/Rig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/geodata"
+            android:drawableLeft="@drawable/ic_contact_phone_white_24dp"
+            android:drawablePadding="10dp"
+            android:hint="Rig Name"
+            android:inputType="textCapCharacters"
+            android:outlineAmbientShadowColor="@color/geodata"
+            android:outlineSpotShadowColor="@color/geodata"
+            android:shadowColor="@color/geodata"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="@color/geodata"
+            android:textColorHint="@color/hint"
+            android:textColorLink="@color/geodata"
+            android:textSize="17sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColorHint="@color/hint2"
+        android:theme="@style/EditTextHint">
+
+        <EditText
+            android:id="@+id/Well"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="@color/geodata"
+            android:drawableLeft="@drawable/ic_contact_phone_white_24dp"
+            android:drawablePadding="10dp"
+            android:hint="Well Name"
+            android:inputType="textCapCharacters"
+            android:outlineAmbientShadowColor="@color/geodata"
+            android:outlineSpotShadowColor="@color/geodata"
+            android:shadowColor="@color/geodata"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="@color/geodata"
+            android:textColorHint="@color/hint2"
+            android:textColorLink="@color/geodata"
+            android:textSize="17sp" />
+    </android.support.design.widget.TextInputLayout>
+
+    <CalendarView
+        android:id="@+id/Calen"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:background="@color/geodata"
+        android:backgroundTint="@color/geodata"
+        android:foregroundTint="@color/geodata" />
+
+
+    <Button
+        android:id="@+id/Cancel"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+
+        android:background="@drawable/buttonshape"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="CANCEL"
+        android:textColor="@color/hint2"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Ok"
+        style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/buttonshape"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="OK"
+        android:textColor="@color/hint2"
+        android:textStyle="bold" />
+</LinearLayout>
+
+
+
+
+
